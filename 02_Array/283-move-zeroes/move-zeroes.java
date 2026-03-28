@@ -4,9 +4,11 @@ class Solution {
         
         while(j < nums.length){
             if(nums[j]!=0  ){
+                if(i!=j){
                 int temp = nums[i];
                 nums[i] = nums[j];
                 nums[j] = temp;
+            }
                 i++;
             }
               j++;       
