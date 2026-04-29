@@ -10,17 +10,14 @@ class Solution {
                 count++;
             }
             else{
-                 if(count>max){
-               max = count; 
-            }
+                max = Math.max(max,count);
                 count = 0;
             }
 
            
         }
-         if(count>max){
-               max = count; }
-        return max;
+         return Math.max(count,max);
+       
         
     }
 }
