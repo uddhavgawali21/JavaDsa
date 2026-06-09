@@ -9,7 +9,11 @@ class Solution {
                 stack.push(c);
             
             }
-            else if(!stack.isEmpty() && ((stack.peek()=='('&&c==')') ||( stack.peek()=='['&&c==']') || (stack.peek()=='{'&&c=='}'))){
+            else if(!stack.isEmpty() && 
+                ((stack.peek()=='('&&c==')') ||
+                ( stack.peek()=='['&&c==']') ||
+                (stack.peek()=='{'&&c=='}')))
+            {
                     stack.pop();
                 
             }
