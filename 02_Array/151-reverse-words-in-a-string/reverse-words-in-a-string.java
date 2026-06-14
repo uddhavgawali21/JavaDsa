@@ -11,13 +11,6 @@ class Solution {
     
        return s.toString().trim();
     }
-    public void reverse(StringBuilder s,int i, int j){
-        while(i<j){
-            char c= s.charAt(i);
-            s.setCharAt(i,s.charAt(j));
+   
 
-         s.setCharAt(j,c);
-            i++;j--;
-        }
-    }
 }
