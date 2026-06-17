@@ -1,7 +1,7 @@
 class Solution {
     public String mergeAlternately(String word1, String word2) {
 
-        StringBuffer str = new StringBuffer();
+        StringBuilder str = new StringBuilder();
 
         int i =0;
 
